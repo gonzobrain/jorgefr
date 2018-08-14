@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Jorge FDZ</title>
+ <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://hyde.getpoole.com/"/>
+ <updated>2018-08-14T06:48:32+02:00</updated>
+ <id>http://hyde.getpoole.com</id>
+ <author>
+   <name>Jorge Fdz</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Branding</title>
+   <link href="http://hyde.getpoole.com/posts/2013/12/09/branding/"/>
+   <updated>2013-12-09T13:00:00+01:00</updated>
+   <id>http://hyde.getpoole.com/posts/2013/12/09/branding</id>
+   <content type="html">&lt;h2&gt;Redwolf&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/redCard.jpg&quot; width=&quot;800&quot;&gt;&lt;img&gt;
+&lt;img src=&quot;images/redFlyer.jpg&quot; width=&quot;800&quot;&gt;&lt;img&gt;&lt;/p&gt;
+
+&lt;h2&gt;SYRE&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/syreCard.jpg&quot; width=&quot;800&quot;&gt;&lt;img&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
