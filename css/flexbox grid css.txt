@@ -1,0 +1,15 @@
+.container {
+  min-height: 400px;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  flex: 0 0 auto;
+  margin: 1px;
+}
