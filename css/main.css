@@ -1,11 +1,11 @@
 /* MOBILE */
 
 
-.responsive {
+img {
 
 	width: 100%;
 	height: auto;
-	margin: 1vw;
+	margin: auto;
 
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-	
+	margin: auto;
 	max-height: 0.8em;
 	overflow: hidden;
 	font-size: 20vw;
@@ -29,29 +29,33 @@ h1 {
 
 #digra  {
 	
+	margin: auto;
+	padding-bottom: 15vw;
 	font-family: 'Major Mono Display', monospace;
 	font-size: 7vw;
 	
-	letter-spacing: 1.5vw;
+	letter-spacing: 1.6vw;
 	
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	white-space: nowrap;
 }
 
 .logocase {
 
-	margin-top: 15vw;
+	margin: auto;
+	padding-bottom: 15vw;
+
 	display: flex;
-	align-items: center;
+	align-items: center; /* images dont stretch */
 	flex-wrap: nowrap;
 
 }
 
 .bannercase {
 	
-	margin-top: 15vw;
+	margin: auto;
+	padding-bottom: 5vw;
 	display: flex;
 	align-items: center;
 
@@ -66,7 +70,6 @@ h1 {
 	
 	display: flex;
 	justify-content: center;
-	align-items: center;
 
 }
 
@@ -77,25 +80,4 @@ h1 {
 	white-space: nowrap;
 	
 }
-
-
-
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-
-
-
-
-.logocase    { width: 100%;
-		margin: auto;}
-
-
-.bannercase { width: 100%;
-		margin: auto;}
-
-}
-
-
-
 
