@@ -1,27 +1,18 @@
+/* MOBILE */
+
+
 .responsive {
 
 	width: 100%;
 	height: auto;
+	margin: 1vw;
 
 }
 
-html, body {
+body {
 
 	border: 2px solid white;
 
-}
-
-
-
-.jorge {
-	
-	margin-top: 20vw;
-	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	
 }
 
 h1 {
@@ -36,8 +27,7 @@ h1 {
 	
 }
 
-.digra p {
-	
+#digra  {
 	
 	font-family: 'Major Mono Display', monospace;
 	font-size: 7vw;
@@ -51,36 +41,20 @@ h1 {
 }
 
 .logocase {
-	
+
 	margin-top: 15vw;
-	
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	text-align: center;
-	
-	width: 100%;
+	flex-wrap: nowrap;
 
-
-}
-
-.logocase img {
-	
-	margin: 1em;
-	
 }
 
 .bannercase {
 	
 	margin-top: 15vw;
-	
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
-	width: 100%;
-	
-	list-style: none;
+
 }
 
 .footer {
@@ -103,3 +77,25 @@ h1 {
 	white-space: nowrap;
 	
 }
+
+
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+
+
+
+.logocase    { width: 100%;
+		margin: auto;}
+
+
+.bannercase { width: 100%;
+		margin: auto;}
+
+}
+
+
+
+
