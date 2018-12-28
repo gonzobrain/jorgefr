@@ -48,7 +48,6 @@ h1 {
 
 	display: flex;
 	align-items: center; /* images dont stretch */
-	flex-wrap: nowrap;
 
 }
 
@@ -56,6 +55,7 @@ h1 {
 	
 	margin: auto;
 	padding-bottom: 5vw;
+
 	display: flex;
 	align-items: center;
 
